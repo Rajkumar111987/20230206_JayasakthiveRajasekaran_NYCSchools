@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">19870101-JayasakthivelRajasekaran-NYCShools</string>
+
+    <!--Login-->
+    <string name="login_sign_in">Show Me NYC Schools</string>
+
+    <!--Dashboard-->
+    <string name="title_dashboard">NYC High Schools</string>
+
+    <!--Dashboard Detail-->
+    <string name="dashboard_colon"> : </string>
+    <string name="dashboard_requirement">Requirement</string>
+    <string name="dashboard_requirement_1">Requirement 1</string>
+    <string name="dashboard_requirement_2">Requirement 2</string>
+    <string name="dashboard_requirement_3">Requirement 3</string>
+    <string name="dashboard_requirement_4">Requirement 4</string>
+    <string name="dashboard_requirement_5">Requirement 5</string>
+    <string name="dashboard_elegibility">Eligibility</string>
+    <string name="dashboard_sat_test_takers">SatTest Takers</string>
+    <string name="dashboard_sat_read_avg_score">SATReading Avg Score</string>
+    <string name="dashboard_sat_math_avg_score">SATMath Avg Score</string>
+    <string name="dashboard_sat_writing_avg_score">SATWriting Avg Score</string>
+    <string name="dashboard_oppturnity">Opportunity</string>
+    <string name="dashboard_oppturnity_1">Opportunity 1</string>
+    <string name="dashboard_oppturnity_2">Opportunity 2</string>
+    <string name="dashboard_oppturnity_3">Opportunity 3</string>
+    <string name="dashboard_programs">Programs</string>
+    <string name="dashboard_language">Language Classes</string>
+    <string name="dashboard_courses">Advancement Courses</string>
+    <string name="dashboard_diploma">Diploma</string>
+    <string name="dashboard_direction">Directions</string>
+    <string name="dashboard_add_info">Additional Info</string>
+
+    <!--Common Strings-->
+    <string name="error_dialog_message">Something Went Wrong!!!</string>
+    <string name="error_dialog_refresh">Refresh</string>
+    <string name="error_dialog_exit">Exit</string>
+    <string name="error_dialog_ok">OK</string>
+    <string name="error_dialog_cancel">Cancel</string>
+    <string name="error_dialog_exit_message">Are you sure? You want to exit the App?</string>
+</resources>

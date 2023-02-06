@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_background"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:id="@+id/rvHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <TextView
+                    android:id="@+id/tvSchoolName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toStartOf="@id/info"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:text="Clinton School Writers &amp; Artists, M.S. 260" />
+
+                <ImageView
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_info" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/rvHeader">
+
+                <TextView
+                    android:id="@+id/tvCity"
+                    style="@style/text_School"
+                    tools:text="City : Bronx"/>
+
+
+
+                <TextView
+                    android:id="@+id/tvTotalStudents"
+                    style="@style/text_School"
+                    tools:text="Total Students : 376"/>
+
+                <TextView
+                    android:id="@+id/tvAttendance"
+                    style="@style/text_School"
+                    tools:text="Attendance Rate : 0.970000029"/>
+
+                <TextView
+                    android:id="@+id/tvSports"
+                    style="@style/text_School"
+                    tools:text="Sports : Cross Country, Track and Field, Soccer, Flag Football, Basketball"/>
+
+
+                <TextView
+                    android:id="@+id/extraActivites"
+                    style="@style/text_School"
+                    tools:text="Extracurricular Activities : Cross Country, Track and Field, Soccer, Flag Football, Basketball"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/ivWeb"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight=".25"
+                        android:src="@drawable/ic_web"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivPhone"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_phone"
+                        android:layout_weight=".25"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:id="@+id/ivEmail"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_email"
+                        android:layout_weight=".25"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:id="@+id/ivDirection"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_directions"
+                        android:layout_weight=".25"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
